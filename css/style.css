@@ -80,6 +80,42 @@ body{
 	line-height: 35px;
 }
 
+.education_block{
+	position: relative;
+	min-height: 150px;
+	width: 100%;
+	background-color: #282828;
+}
+
+.education_text_block{
+	position: relative;
+	min-height: 150px;
+	margin-left: 300px;
+}
+
+.education_block_title{
+	font-size: 27px;
+	font-weight: bolder;
+}
+
+.education_block_content{
+	line-height: 30px;
+}
+
+#ita{
+	background-image: url('../img/ita300x150.png');
+	background-repeat: no-repeat;
+}
+
+#polytechnique{
+	background-image: url('../img/Xnew300x150.png');
+	background-repeat: no-repeat;
+}
+
+#cmu{
+	background-image: url('../img/cmuround300x150.png');
+	background-repeat: no-repeat;
+}
 
 /*LEFT MENU*/
 

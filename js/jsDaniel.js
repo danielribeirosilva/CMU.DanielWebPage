@@ -28,11 +28,50 @@ $(document).ready(function(){
 		newHTML += '<p><h1><u>Short Bio</u></h1></p>';
 		newHTML += '<br/>\
 			<div class="bio_text">I&apos;m a grad student at Carnegie Mellon University. I&apos;m currently on the first semester of the MIIS (MSc in Intelligent Information Systems) Program offered by LTI - School of Computer Science.</div><br/><br/>\
-			<div class="bio_text">My interests include recommender systems (especially collaborative filtering) and machine learning applied to real-life problems.</div>\
+			<div class="bio_text">My interests include recommender systems, knowledge extraction and machine learning applied to real-life problems.</div>\
 			<br/><br/>\
 			<div class="bio_text">My advisor is <a href="http://www.cs.cmu.edu/~hovy/">Prof. Eduard Hovy</a> and we are currently working on a data and text mining project for law enforcement.</div>\
 			<br/><br/>\
 			<div class="bio_text">Current courses I am taking include <i>Machine Learning</i>, <i>Search Engines & Web Mining</i>, and <i>Algorithms for NLP.</i> </div>';
+		
+		newHTML += '<br><hr/><br>';
+		
+		newHTML += '<p><h1><u>Education</u></h1></p><br>';
+		
+		
+		newHTML += '<div id="cmu" class="education_block">\
+			<div class="education_text_block">\
+				<span class="education_block_title"><a href="http://www.cmu.edu" target="_blank">Carnegie Mellon University</a></span> <br><br>\
+				<div class="education_block_content">\
+					MSc. Intelligent Information Systems (MIIS) <br>\
+				</div>\
+			</div>\
+		</div>';
+			
+		newHTML += '<br><br><br>';
+		
+		newHTML += '<div id="polytechnique" class="education_block">\
+			<div class="education_text_block">\
+				<span class="education_block_title"><a href="http://www.polytechnique.edu" target="_blank">Ecole Polytechnique</a></span> <br><br>\
+				<div class="education_block_content">\
+					B. Eng. Applied Mathematics &amp; Computer Science <br>\
+					MSc. Computer Vision &amp; Statistical Learning <br>\
+				</div>\
+			</div>\
+		</div>';
+			
+		newHTML += '<br><br><br>';
+		
+		newHTML += '<div id="ita" class="education_block">\
+			<div class="education_text_block">\
+				<span class="education_block_title"><a href="http://www.ita.br" target="_blank">Instituto Tecnol&oacute;gico de Aeron&aacute;utica</a></span> <br><br>\
+				<div class="education_block_content">\
+					B. Eng. Mechanical Aeronautical Engineering <br>\
+					Honorable Mention in Mathematics, Physics and Humanities.\
+				</div>\
+			</div>\
+		</div>';
+		
 		newHTML += '</div>';
 		
 		replaceAndScrollUp('content_wrapper',newHTML);
