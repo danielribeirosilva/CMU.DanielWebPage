@@ -470,7 +470,7 @@ section h3.section-subheading {
     float: right;
     position: relative;
     width: 100%;
-    padding: 0 20px 0 100px;
+    padding: 0 20px 0 80px;
     text-align: left;
 }
 
@@ -508,9 +508,38 @@ section h3.section-subheading {
     line-height: 14px;
 }
 
+.timeline>li .timeline-opposite-panel {
+    float: right;
+    position: relative;
+    width: 100%;
+    padding: 0 20px 20px 30px;
+    text-align: left;
+}
+
+.timeline>li .opposite-panel-text {
+    background-repeat: no-repeat;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+
+.timeline>li.timeline-inverted>.timeline-opposite-panel {
+    float: left;
+    padding: 0 70px 0 20px;
+    text-align: right;
+}
+
+.timeline>li.timeline-inverted>.timeline-opposite-panel>.opposite-panel-text:after {
+    position: absolute;
+    right: 0;
+    width: 32px; height: 32px; /* width and height set as dimensions of image */
+    margin-right: 30px;
+}
+
+
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
-    padding: 0 20px 0 100px;
+    padding: 0 20px 0 80px;
     text-align: left;
 }
 
@@ -556,7 +585,7 @@ section h3.section-subheading {
         min-height: 100px;
     }
 
-    .timeline>li .timeline-panel {
+    .timeline>li .timeline-panel{
         float: left;
         width: 41%;
         padding: 0 20px 20px 30px;
@@ -568,6 +597,19 @@ section h3.section-subheading {
         width: 100px;
         height: 100px;
         margin-left: -50px;
+    }
+
+    .timeline>li .timeline-opposite-panel {
+        float: right;
+        position: relative;
+        width: 41%;
+        padding: 0 30px 20px 20px;
+        text-align: left;
+        height: 100px;
+    }
+
+    .timeline-opposite-panel>.opposite-panel-text{
+        margin-top: 35px;
     }
 
     .timeline>li .timeline-image h4 {
@@ -604,6 +646,15 @@ section h3.section-subheading {
         line-height: 26px;
     }
 
+    .timeline>li .timeline-opposite-panel {
+        padding: 0 20px 0px 20px;
+        height: 150px;
+    }
+
+    .timeline-opposite-panel>.opposite-panel-text{
+        margin-top: 60px;
+    }
+
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
     }
@@ -615,7 +666,7 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px 100px;
+        padding: 0 20px 20px 50px;
     }
 
     .timeline>li .timeline-image {
@@ -624,12 +675,23 @@ section h3.section-subheading {
         margin-left: -85px;
     }
 
+    .timeline>li .timeline-opposite-panel {
+        padding: 0 50px 0px 20px;
+        height: 170px;
+    }
+
+    .timeline-opposite-panel>.opposite-panel-text{
+        margin-top: 70px;
+    }
+
     .timeline>li .timeline-image h4 {
         margin-top: 40px;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 100px 20px 20px;
+        padding: 0 50px 20px 20px;
+
+        height: 170px;
     }
 }
 
@@ -891,10 +953,22 @@ body {
     background-image: url('../img/flags/france.png');
 }
 
+.flag-france-after:after{
+    content: url(../img/flags/france.png);
+}
+
 .flag-usa{
     background-image: url('../img/flags/usa.png');
 }
 
 .flag-brazil{
     background-image: url('../img/flags/brazil.png');
+}
+
+.flag-brazil-after:after{
+    content: url(../img/flags/brazil.png);
+}
+
+.flag-china{
+    background-image: url('../img/flags/china.png');
 }
