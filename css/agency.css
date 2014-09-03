@@ -267,7 +267,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/h.jpg);
+    background-image: url(../img/hv2.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -719,70 +719,7 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
-section#contact .section-heading {
-    color: #fff;
-}
-
-section#contact .form-group {
-    margin-bottom: 25px;
-}
-
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
-}
-
-section#contact .form-group input.form-control {
-    height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-}
-
-section#contact .form-control:focus {
-    border-color: #fed136;
-    box-shadow: none;
-}
-
-section#contact::-webkit-input-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact:-moz-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact::-moz-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact:-ms-input-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact .text-danger {
-    color: #e74c3c;
-}
 
 footer {
     padding: 25px 0;
@@ -942,6 +879,21 @@ body {
     line-height: 1.5em;
 }
 
+
+.language-flag{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.language-row-text{
+    position: relative;
+    display: inline-block;
+    line-height: 32px;
+}
+
 .flag-location{
     line-height: 32px;
     display: inline-block;
@@ -969,6 +921,18 @@ body {
     content: url(../img/flags/brazil.png);
 }
 
+.flag-brazil-before:before{
+    content: url(../img/flags/brazil.png);
+}
+
 .flag-china{
     background-image: url('../img/flags/china.png');
+}
+
+.flag-spain{
+    background-image: url('../img/flags/spain.png');
+}
+
+.flag-germany{
+    background-image: url('../img/flags/germany.png');
 }
