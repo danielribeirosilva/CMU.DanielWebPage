@@ -27,12 +27,12 @@ $(document).ready(function(){
 		newHTML += '<div id="content_wrapper">';
 		newHTML += '<p><h1><u>Short Bio</u></h1></p>';
 		newHTML += '<br/>\
-			<div class="bio_text">I&apos;m a grad student at Carnegie Mellon University. I&apos;m currently on the first semester of the MIIS (MSc in Intelligent Information Systems) Program offered by LTI - School of Computer Science.</div><br/><br/>\
+			<div class="bio_text">I&apos;m a grad student at Carnegie Mellon University. I&apos;m currently on the second semester of the MIIS program (MSc in Intelligent Information Systems) offered by LTI - School of Computer Science.</div><br/><br/>\
 			<div class="bio_text">My interests include recommender systems, knowledge extraction, and machine learning applied to real-life problems.</div>\
 			<br/><br/>\
 			<div class="bio_text">My advisor is <a href="http://www.cs.cmu.edu/~hovy/">Prof. Eduard Hovy</a> and we are currently working on a data and text mining project for law enforcement.</div>\
 			<br/><br/>\
-			<div class="bio_text">Current courses I am taking include <i>Machine Learning</i>, <i>Search Engines & Web Mining</i>, and <i>Algorithms for NLP.</i> </div>';
+			<div class="bio_text">Recent/current courses at CMU include <i>Machine Learning</i>, <i>Search Engines &amp; Web Mining</i>, <i>Algorithms for NLP</i>, <i>Probabilistic Graphical Model</i>, <i>Machine Learning for Large Datasets</i>, and <i>Adaptive Control &amp; Reinforcement Learning</i>. I am also a TA in Machine Learning.</div>';
 		
 		newHTML += '<br><hr/><br>';
 		
@@ -43,7 +43,7 @@ $(document).ready(function(){
 			<div class="education_text_block">\
 				<span class="education_block_title"><a href="http://www.cmu.edu" target="_blank">Carnegie Mellon University</a></span> <br><br>\
 				<div class="education_block_content">\
-					MSc. Intelligent Information Systems (MIIS) - GPA: 3.93 <br>\
+					MSc. Intelligent Information Systems (MIIS) <br>\
 				</div>\
 			</div>\
 		</div>';
@@ -88,25 +88,7 @@ $(document).ready(function(){
 		newHTML += '<div class="skill_line"><div id="skill_image_fr" class="skill_info">french</div></div>';
 		newHTML += '<div class="skill_line"><div id="skill_image_ge" class="skill_info">german</div></div>';
 		newHTML += '<br/><br/><p><h1><u>Computer Skills</u></h1></p>';
-		newHTML += '<p>Java, C++, C#, PHP, Python, JavaScript, MySQL, SCOPE, Matlab, VBA, HTML, CSS</p>';
-		
-		newHTML += '</div>';
-		
-		replaceAndScrollUp('content_wrapper',newHTML);
-	});
-	
-	//RESEARCH
-	$("#index_research").click( function(){
-		var newHTML = '';
-		newHTML += '<div id="content_wrapper">';
-		newHTML += '<p><h1><u>Fluent Languages</u></h1></p>';
-		newHTML += '<div class="skill_line"><div id="skill_image_pt" class="skill_info">portuguese</div></div>';
-		newHTML += '<div class="skill_line"><div id="skill_image_en" class="skill_info">english</div></div>';
-		newHTML += '<div class="skill_line"><div id="skill_image_sp" class="skill_info">spanish</div></div>';
-		newHTML += '<div class="skill_line"><div id="skill_image_fr" class="skill_info">french</div></div>';
-		newHTML += '<div class="skill_line"><div id="skill_image_ge" class="skill_info">german</div></div>';
-		newHTML += '<br/><br/><p><h1><u>Computer Skills</u></h1></p>';
-		newHTML += '<p>Java, C++, C#, PHP, Python, JavaScript, MySQL, SCOPE, Matlab, VBA, HTML, CSS</p>';
+		newHTML += '<p>Java, C++, Python, PHP, JavaScript, MySQL, SCOPE, Matlab, VBA, HTML, CSS</p>';
 		
 		newHTML += '</div>';
 		
@@ -114,7 +96,6 @@ $(document).ready(function(){
 	});
 	
 	//PROJECTS
-	/*
 	$("#index_projects").click( function(){
 		var newHTML = '';
 		newHTML += '<div id="content_wrapper">';
@@ -129,7 +110,7 @@ $(document).ready(function(){
 			<div class="projects_row_wrapper">\
 				<div class="projects_info_wrapper">\
 						<div class="projects_info_title">Aesthetic Assessment of Photos</div>\
-						<div class="projects_info_text">Construction of image descriptor and supervised learning pipeline for assessing the aesthetic quality of photographs.<br/><br/><i>&rarr;  C++/OpenCV</i></div>\
+						<div class="projects_info_text">Construction of image descriptor and supervised learning algorithm for assessing the aesthetic quality of photographs.<br/><br/><i>&rarr;  C++/OpenCV</i></div>\
 				</div>\
 				<div class="projects_image"style="background-image: url(img/project_6.png)"></div>\
 			</div>\
@@ -174,7 +155,6 @@ $(document).ready(function(){
 		
 		replaceAndScrollUp('content_wrapper',newHTML);
 	});
-	*/
 	
 	//EXPERIENCE
 	$("#index_experience").click( function(){
@@ -295,8 +275,8 @@ $(document).ready(function(){
 		//newHTML += '<p><h1>Contact Info  </h1></p>';
 		newHTML += '<p><img src="img/contact_profile.png"/></p>';
 		newHTML += '<div class="contact_line"><a href="http://www.linkedin.com/in/danielribeirosilva" target="_blank"><div id="contact_image_linkedin" class="contact_info_linkedin">Linkedin</div></a></div>';
-		newHTML += '<div class="contact_line"><div id="contact_image_phone" class="contact_info_phone">phone: (412) 608-3053</div></div>';
-		newHTML += '<div class="contact_line"><div id="contact_image_email" class="contact_info_email">email: drsilva AT cs.cmu.edu</div></div>';
+		newHTML += '<div class="contact_line"><div id="contact_image_phone" class="contact_info_phone">phone: (41<div style="display:none;"> you shall not parse!</div>2) 608-<div style="display:none;"> you shall not parse!</div>3053</div></div>';
+		newHTML += '<div class="contact_line"><div id="contact_image_email" class="contact_info_email">email: drsilva<div style="display:none;"> you shall not parse!</div>@cs.<div style="display:none;"> you shall not parse!</div>cmu.edu</div></div>';
 		newHTML += '</div>';
 		
 		replaceAndScrollUp('content_wrapper',newHTML);
