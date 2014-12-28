@@ -913,6 +913,10 @@ body {
     background-image: url('../img/flags/usa.png');
 }
 
+.flag-usa-after:after{
+    content: url('../img/flags/usa.png');
+}
+
 .flag-brazil{
     background-image: url('../img/flags/brazil.png');
 }
