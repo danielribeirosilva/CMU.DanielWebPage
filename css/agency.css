@@ -888,6 +888,13 @@ body {
     margin-right: 10px;
 }
 
+.language-flag-v2{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
 .language-row-text{
     position: relative;
     display: inline-block;
